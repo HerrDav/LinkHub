@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1>URL Shortener</h1>
+    <form id="shortenForm">
+        <label for="originalUrl">URL de Origem:</label>
+        <input type="text" id="originalUrl" name="originalUrl" required>
+        <br>
+        <label for="shorteners">Selecione os encurtadores:</label>
+        <select id="shorteners" name="shorteners" multiple>
+            <option value="cleanuri">CleanUri</option>
+            <option value="owo">Owo</option>
+            <!-- Adicione outras opções conforme necessário -->
+        </select>
+        <br>
+        <button type="submit">Encurtar</button>
+    </form>
+
+    <h2>Short URLs:</h2>
+    <ul id="shortUrls"></ul>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
