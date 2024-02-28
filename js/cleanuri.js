@@ -1,3 +1,5 @@
+//https://cleanuri.com/docs
+
 export function shortCleanuri(url) {
 
     const requestOptions = {

@@ -1,3 +1,4 @@
+//https://shrtlnk.dev/developer/documentation
 
 import accessTokens from './accessTokens.js';
 export function shortenWithShrtlnkDev(url) {

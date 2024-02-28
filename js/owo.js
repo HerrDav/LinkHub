@@ -1,3 +1,5 @@
+//https://owo.vc/api.html
+
 export function shortOwo(url) {
 
     const requestOptions = {

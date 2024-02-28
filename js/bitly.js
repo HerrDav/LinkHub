@@ -1,4 +1,4 @@
-// bitly.js
+// https://dev.bitly.com/docs/tutorials/shorten-customize-links/
 
 import accessTokens from './accessTokens.js';
 export function shortenWithBitly(url) {
