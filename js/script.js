@@ -1,6 +1,7 @@
 import { shortCleanuri } from  './cleanuri.js';
 import { shortOwo } from './owo.js';
 import { shortRebrandly } from './rebrandly.js';
+import { shortUrlbae } from './urlbae.js';
 
 document.getElementById("shortenForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Evita o envio do formulário
@@ -23,6 +24,7 @@ document.getElementById("shortenForm").addEventListener("submit", function(event
         if (shortener === 'cleanuri') {         promise = shortCleanuri(originalUrl);
         } else if (shortener === 'owo') {       promise = shortOwo(originalUrl);
         } else if (shortener === 'rebrandly') { promise = shortRebrandly(originalUrl);
+        } else if (shortener === 'urlbae') {    promise = shortUrlbae(originalUrl);
         }
         
         // Adiciona a URL curta à lista
