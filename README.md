@@ -2,3 +2,6 @@ Bem-vindo ao projeto de estudo LinkHub, onde exploramos a integração e unifica
 
 
 Preview: https://herrdav.github.io/LinkHub/
+
+
+**Observação:** Nessa estrutura somente o *"Owo"* esta em funcionamento pois ele não depende de uma *"API_KEY"* para sue pleno funcionamento, para que seja totalmente funcional baixe e crie um ambiente apropriado para aceitar os outros métodos
